@@ -9,7 +9,7 @@ var map = L.map("map", {
 });
 
 var imageUrl =
-  "https://raw.githubusercontent.com/DereC4/derexsmp/refs/heads/main/docs/pano4_2025.jpg";
+  "https://raw.githubusercontent.com/DereC4/derex-smp/refs/heads/main/docs/pano4_2025.jpg";
 var imageBounds = [
   [0, 0],
   [1939, 3367],

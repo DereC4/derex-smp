@@ -39,7 +39,7 @@ async function fetchMembers() {
   if (!memberlist) return;
   
   try {
-    const response = await fetch('https://api.github.com/repos/DereC4/derexsmp/contents/docs/playerdata');
+    const response = await fetch('https://api.github.com/repos/DereC4/derex-smp/contents/docs/playerdata');
     const files = await response.json();
     
     for (const file of files) {
